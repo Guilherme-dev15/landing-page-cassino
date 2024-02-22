@@ -1,66 +1,65 @@
 {
-    "sites": [
-      {
-        "name": "Nome do Site",
-          "logo": "URL do Logo",
-        "headline": "Manchete do Site",
-        "description": "Descrição do Site",
-        "category": {
-          "categories": [
-            {
-              "name": "Categoria 1",
-              "value": "Valor 1"
-            },
-            {
-              "name": "Categoria 2",
-              "value": "Valor 2"
-            },
-            {
-              "name": "Categoria 3",
-              "value": "Valor 3"
-            },
-            {
-              "name": "Categoria 4",
-              "value": "Valor 4"
-            },
-            {
-              "name": "Categoria 5",
-              "value": "Valor 5"
-            }
-          ]
-        },
-        "rating": "Avaliação"
+  "sites": [
+    {
+      "name": "Nome do Site",
+      "logo": "URL do Logo",
+      "headline": "Manchete do Site",
+      "description": "Descrição do Site",
+      "category": {
+        "categories": [
+          {
+            "name": "Categoria 1",
+            "value": "Valor 1"
+          },
+          {
+            "name": "Categoria 2",
+            "value": "Valor 2"
+          },
+          {
+            "name": "Categoria 3",
+            "value": "Valor 3"
+          },
+          {
+            "name": "Categoria 4",
+            "value": "Valor 4"
+          },
+          {
+            "name": "Categoria 5",
+            "value": "Valor 5"
+          }
+        ]
       },
-      {
-        "name": "HOSTINGER",
-        "logo": "https://www.hostinger.com.br/h-assets/svg/icons/logos/hostinger-logo.svg#svgView(viewBox(0%200%20147%2030))",
-        "headline": "PLATAFORMA DE HOSPEDAGEM DE SITES",
-        "description": "Somos uma provedora de hospedagem de sites com a missão de promover o sucesso a todas as pessoas que querem começar sua jornada online. Buscamos sempre melhorar a tecnologia dos nossos servidores, oferecer um suporte profissional e tornar a experiência com a hospedagem de sites a melhor possível.",
-        "category": {
-          "categories": [
-            {
-              "name": "Esporte +40",
-              "value": "Sim"
-            },
-            {
-              "name": "Cashout",
-              "value": "Sim"
-            },
-            {
-              "name": "Streaming",
-              "value": "No"
-            },
-            {
-              "name": "Dep. Min",
-              "value": "10$"
-            },
-            {
-              "name": " Apps"
-            }
-          ]
-        },
-        "rating": "4.6"
-      }
-    ]
-  }
-  
+      "rating": "Avaliação"
+    },
+    {
+      "name": "HOSTINGER",
+      "logo": "https://www.hostinger.com.br/h-assets/svg/icons/logos/hostinger-logo.svg#svgView(viewBox(0%200%20147%2030))",
+      "headline": "PLATAFORMA DE HOSPEDAGEM DE SITES",
+      "description": "Somos uma provedora de hospedagem de sites com a missão de promover o sucesso a todas as pessoas que querem começar sua jornada online. Buscamos sempre melhorar a tecnologia dos nossos servidores, oferecer um suporte profissional e tornar a experiência com a hospedagem de sites a melhor possível.",
+      "category": {
+        "categories": [
+          {
+            "name": "Esporte +40",
+            "value": "Sim"
+          },
+          {
+            "name": "Cashout",
+            "value": "Sim"
+          },
+          {
+            "name": "Streaming",
+            "value": "No"
+          },
+          {
+            "name": "Dep. Min",
+            "value": "10$"
+          },
+          {
+            "name": "Apps"
+          }
+        ]
+      },
+      "rating": "4.6"
+    }
+  ]
+}
