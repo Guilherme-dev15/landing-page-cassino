@@ -2,7 +2,7 @@
     "sites": [
       {
         "name": "Nome do Site",
-        "logo": "URL do Logo",
+          "logo": "URL do Logo",
         "headline": "Manchete do Site",
         "description": "Descrição do Site",
         "category": {
