@@ -1,5 +1,5 @@
 async function fetchSitesData() {
-    const url = '';
+    const url = 'https://raw.githubusercontent.com/Guilherme-dev15/landing-page-cassino/main/data/sites.json?token=GHSAT0AAAAAACNAFCJLW24TZLPA65FJ7TDOZOXLP3A';
   
     try {
       const response = await fetch(url);

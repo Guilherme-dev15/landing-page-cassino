@@ -1,7 +1,7 @@
 {
     "name": "HOSTINGER",
-    "image": "https://www.hostinger.com.br/h-assets/svg/icons/logos/hostinger-logo.svg#svgView(viewBox(0%200%20147%2030))",
-    "head-line": "PLATAFORMA DE HOSPEDAGEM DE SITES",
+    "logo": "https://www.hostinger.com.br/h-assets/svg/icons/logos/hostinger-logo.svg#svgView(viewBox(0%200%20147%2030))",
+    "headline": "PLATAFORMA DE HOSPEDAGEM DE SITES",
     "description": "Somos uma provedora de hospedagem de sites com a missão de promover o sucesso a todas as pessoas que querem começar sua jornada online. Buscamos sempre melhorar a tecnologia dos nossos servidores, oferecer um suporte profissional e tornar a experiência com a hospedagem de sites a melhor possível.",
     "category": {
         "categories": [
