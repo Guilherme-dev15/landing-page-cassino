@@ -1,66 +1,94 @@
 {
     "sites": [
-      {
-        "name": "Apple",
-        "logo": "https://w7.pngwing.com/pngs/695/105/png-transparent-apple-logo-business-apple-logo-outline-heart-logo-computer-wallpaper.png",
-        "headline": "Apple: Transformando Tecnologia em Experiência. Descubra a Inovação que Define o Futuro.",
-        "description": "Na Apple, a excelência é nossa tradição. Explore dispositivos inovadores, mergulhe em um ecossistema digital harmonioso e experimente a vanguarda da tecnologia. Seja inspirado pela elegância e inovação que definem a experiência Apple.",
-        "category": {
-          "categories": [
-            {
-              "name": "Categoria 1",
-              "value": "Valor 1"
+        {
+            "name": "Apple",
+            "logo": "https://w7.pngwing.com/pngs/695/105/png-transparent-apple-logo-business-apple-logo-outline-heart-logo-computer-wallpaper.png",
+            "headline": "Apple: Transformando Tecnologia em Experiência. Descubra a Inovação que Define o Futuro.",
+            "description": "Na Apple, a excelência é nossa tradição. Explore dispositivos inovadores, mergulhe em um ecossistema digital harmonioso e experimente a vanguarda da tecnologia. Seja inspirado pela elegância e inovação que definem a experiência Apple.",
+            "category": {
+                "categories": [
+                    {
+                        "name": "Categoria 1",
+                        "value": "Valor 1"
+                    },
+                    {
+                        "name": "Categoria 2",
+                        "value": "Valor 2"
+                    },
+                    {
+                        "name": "Categoria 3",
+                        "value": "Valor 3"
+                    },
+                    {
+                        "name": "Categoria 4",
+                        "value": "Valor 4"
+                    },
+                    {
+                        "name": "Categoria 5",
+                        "value": "Valor 5"
+                    }
+                ]
             },
-            {
-              "name": "Categoria 2",
-              "value": "Valor 2"
-            },
-            {
-              "name": "Categoria 3",
-              "value": "Valor 3"
-            },
-            {
-              "name": "Categoria 4",
-              "value": "Valor 4"
-            },
-            {
-              "name": "Categoria 5",
-              "value": "Valor 5"
-            }
-          ]
+            "rating": "4.8"
         },
-        "rating": "4.8"
-      },
-      {
-        "name": "HOSTINGER",
-        "logo": "https://www.hostinger.com.br/h-assets/svg/icons/logos/hostinger-logo.svg#svgView(viewBox(0%200%20147%2030))",
-        "headline": "PLATAFORMA DE HOSPEDAGEM DE SITES",
-        "description": "Somos uma provedora de hospedagem de sites com a missão de promover o sucesso a todas as pessoas que querem começar sua jornada online. Buscamos sempre melhorar a tecnologia dos nossos servidores, oferecer um suporte profissional e tornar a experiência com a hospedagem de sites a melhor possível.",
-        "category": {
-          "categories": [
-            {
-              "name": "Esporte +40",
-              "value": "Sim"
+        {
+            "name": "HOSTINGER",
+            "logo": "https://www.hostinger.com.br/h-assets/svg/icons/logos/hostinger-logo.svg#svgView(viewBox(0%200%20147%2030))",
+            "headline": "PLATAFORMA DE HOSPEDAGEM DE SITES",
+            "description": "Somos uma provedora de hospedagem de sites com a missão de promover o sucesso a todas as pessoas que querem começar sua jornada online. Buscamos sempre melhorar a tecnologia dos nossos servidores, oferecer um suporte profissional e tornar a experiência com a hospedagem de sites a melhor possível.",
+            "category": {
+                "categories": [
+                    {
+                        "name": "Esporte +40",
+                        "value": "Sim"
+                    },
+                    {
+                        "name": "Cashout",
+                        "value": "Sim"
+                    },
+                    {
+                        "name": "Streaming",
+                        "value": "No"
+                    },
+                    {
+                        "name": "Dep. Min",
+                        "value": "10$"
+                    },
+                    {
+                        "name": " Apps"
+                    }
+                ]
             },
-            {
-              "name": "Cashout",
-              "value": "Sim"
-            },
-            {
-              "name": "Streaming",
-              "value": "No"
-            },
-            {
-              "name": "Dep. Min",
-              "value": "10$"
-            },
-            {
-              "name": " Apps"
-            }
-          ]
+            "rating": "4.6"
         },
-        "rating": "4.6"
-      }
+        {
+            "name": "Microsoft",
+            "logo": "https://i.pinimg.com/originals/cd/77/e0/cd77e04d9fe1a4ac66a26693d05e02c4.jpg",
+            "headline": "Na Microsoft, estamos moldando o futuro digital. Oferecemos soluções tecnológicas inovadoras, conectando pessoas e ideias. Com um compromisso inabalável com a excelência, capacitamos indivíduos e organizações a alcançarem todo o seu potencial no mundo digital.",
+            "category": {
+                "categories": [
+                    {
+                        "name": "Esporte +40",
+                        "value": "Sim"
+                    },
+                    {
+                        "name": "Cashout",
+                        "value": "Sim"
+                    },
+                    {
+                        "name": "Streaming",
+                        "value": "No"
+                    },
+                    {
+                        "name": "Dep. Min",
+                        "value": "R$50$"
+                    },
+                    {
+                        "name": " Apps"
+                    }
+                ]
+            },
+            "rating": "4.9"
+        }
     ]
-  }
-  
+}
