@@ -1,28 +1,27 @@
-function updateCardInfo(cardData) {
-  const image = document.getElementById('image-logo')
-  photo.src = cardData.image
-  photo.alt = cardData.name
+fetchSitesData()
+    .then(data => {
+        console.log('Dados recebidos:', data);
+        // Atualize o conteúdo do DOM com os dados recebidos
+        document.getElementById('image-logo').src = data.logo;
+        document.getElementById('name-cassino').innerText = data.name;
+        document.getElementById('headline').innerText = data.headline;
+        document.getElementById('description-cassino').innerText = data.description;
 
-  const name = document.getElementById('name-cassino')
-  name.innerText = cardData.name
+        const categoriesElement = document.getElementById('card_categories');
+        categoriesElement.innerHTML = data.category.categories.map(category => {
+            const categoryValue = category.value || "Não especificado";
+            return `<li class="categoria">${category.name}:
+                        <span>${categoryValue}</span>
+                    </li>`;
+        }).join('');
 
-  const job = document.getElementById('head-line')
-  job.innerText = cardData.job
-
-  const location = document.getElementById('profile-location')
-  location.innerText = cardData.location
-
-  const linkedin = document.getElementById('profile-linkedin')
-  linkedin.innerText = cardData.linkedin
-  
-  const email = document.getElementById('profile-email')
-  email.innerText = cardData.email
-  email.href = `mailto:${cardData.email}
-  `
-}
-
+        document.getElementById('ranking').innerText = data.rating;
+    })
+    .catch(error => {
+        console.error('Erro geral:', error.message);
+        // Lide com o erro de maneira apropriada
+    });
 (async () => {
   const cardData = await fetchSitesData()
-  updateProfileInfo(cardData)
-
+  updateCardInfo(cardData)
 })()

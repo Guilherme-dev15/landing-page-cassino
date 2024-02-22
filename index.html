@@ -49,33 +49,31 @@
                 </div>
                 <div class="container-description">
                     <div class="card-description">
-                        <h2 id="head-line">Head line</h2>
-                        <p id="description-cassino">Descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque earum cum
-                            voluptate obcaecati saepe nulla delectus voluptates porro, impedit nostrum quae
-                            accusamus? Quisquam pariatur neque ipsam fugit praesentium adipisci aut!</p>
+                        <h2 id="headline"></h2>
+                        <p id="description-cassino"></p>
 
                     </div>
-                    <ul class="card-category">
-                        <li class="categoria">Cashout:
-                            <span>Yes</span>
+                    <ul class="card-category" id="card_categories">
+                        <li class="categoria">
+                            <span id="cashout"></span>
                         </li>
-                        <li class="categoria">Streaming:
-                            <span>No</span>
+                        <li class="categoria">
+                            <span id="streaming"></span>
 
                         </li>
-                        <li class="categoria">Mínimo:
-                            <span>$10</span>
+                        <li class="categoria">
+                            <spanid id="dep-minimo"></span>
                         </li>
-                        <li class="categoria">App: <i class="fa fa-android"></i>
+                        <li class="categoria"><i class="fa fa-android"></i>
                             <i class="fa fa-apple"></i>
                         </li>
-                        <li class="categoria">Outros: </li>
+                        <li class="categoria"></li>
                     </ul>
                 </div>
                 <div class="rating">
                     <p class="star-title">Avaliação da empresa: </p>
                     <div class="rankingBox">
-                        <span class="rankingA">4.7</span>
+                        <span class="rankingA" id="ranking"></span>
                         <span class="rankingB">/5</span>
                     </div>
                     <ul class="rating_stars"> 
@@ -108,6 +106,11 @@
 
 
     </footer>
+
+
+
+    <script src="assets/js/api.js" async></script>
+    <script src="assets/js/main.js" async></script>
 </body>
 
 </html>
