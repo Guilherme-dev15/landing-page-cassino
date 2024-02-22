@@ -1,28 +1,28 @@
+const API_URL = 'https://raw.githubusercontent.com/Guilherme-dev15/landing-page-cassino/main/data/sites.json';
+
 async function fetchSitesData() {
-    const url = 'https://raw.githubusercontent.com/Guilherme-dev15/landing-page-cassino/main/data/sites.json';
-  
     try {
-      const response = await fetch(url);
-  
-      if (!response.ok) {
-        throw new Error(`Erro ao buscar dados. Código: ${response.status}`);
-      }
-  
-      const data = await response.json();
-      return data;
+        const response = await fetch(API_URL);
+
+        if (!response.ok) {
+            throw new Error(`Erro ao buscar dados. Código: ${response.status}`);
+        }
+
+        const data = await response.json();
+        return data;
     } catch (error) {
-      console.error('Erro na solicitação:', error.message);
-      throw error; 
+        console.error('Erro na solicitação:', error.message);
+        throw error; 
     }
-  }
-  
-  // Exemplo de uso
-  fetchSitesData()
+}
+
+// Exemplo de uso
+fetchSitesData()
     .then(data => {
-      console.log('Dados recebidos:', data);
-      // Faça algo com os dados aqui
+        console.log('Dados recebidos:', data);
+        // Faça algo com os dados aqui
     })
     .catch(error => {
-      console.error('Erro geral:', error.message);
-      // Lide com o erro de maneira apropriada
+        console.error('Erro geral:', error.message);
+        // Lide com o erro de maneira apropriada
     });
