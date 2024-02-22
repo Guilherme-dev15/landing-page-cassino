@@ -1,10 +1,10 @@
 {
     "sites": [
       {
-        "name": "Nome do Site",
+        "name": "Apple",
         "logo": "https://w7.pngwing.com/pngs/695/105/png-transparent-apple-logo-business-apple-logo-outline-heart-logo-computer-wallpaper.png",
-        "headline": "Manchete do Site",
-        "description": "Exploramos os confins da tecnologia para criar uma plataforma inovadora de compartilhamento de vídeos, dedicada a proporcionar uma experiência cativante a todos os entusiastas visuais. Nosso compromisso é aprimorar continuamente a qualidade de nossos servidores, fornecer suporte técnico excepcional e tornar a jornada de compartilhamento de vídeos online a melhor possível. Seja você um cineasta amador ou um criador experiente, oferecemos uma infraestrutura robusta e recursos avançados para aprimorar suas criações e conectar você ao seu público de maneiras emocionantes",
+        "headline": "Apple: Transformando Tecnologia em Experiência. Descubra a Inovação que Define o Futuro.",
+        "description": "Na Apple, a excelência é nossa tradição. Explore dispositivos inovadores, mergulhe em um ecossistema digital harmonioso e experimente a vanguarda da tecnologia. Seja inspirado pela elegância e inovação que definem a experiência Apple.",
         "category": {
           "categories": [
             {
