@@ -7,7 +7,7 @@
       "description": "Exploramos os confins da tecnologia para criar uma plataforma inovadora de compartilhamento de vídeos, dedicada a proporcionar uma experiência cativante a todos os entusiastas visuais. Nosso compromisso é aprimorar continuamente a qualidade de nossos servidores, fornecer suporte técnico excepcional e tornar a jornada de compartilhamento de vídeos online a melhor possível. Seja você um cineasta amador ou um criador experiente, oferecemos uma infraestrutura robusta e recursos avançados para aprimorar suas criações e conectar você ao seu público de maneiras emocionantes",
       "category": {
         "categories": [
-          {
+          { 
             "name": "Categoria 1",
             "value": "Valor 1"
           },
