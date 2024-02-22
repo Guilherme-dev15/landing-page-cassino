@@ -1,17 +1,17 @@
 fetchSitesData()
-  .then(data => {
-    console.log('Dados recebidos:', data);
+    .then(data => {
+        console.log('Dados recebidos:', data);
 
-    const sitesContainer = document.getElementById('sites-container');
+        const sitesContainer = document.getElementById('sites-container');
 
-    // Itera sobre cada site no JSON
-    data.sites.forEach(site => {
-      // Cria um novo elemento div para representar o card do site
-      const siteCard = document.createElement('div');
-      siteCard.classList.add('content-card'); // Adiciona a classe para estilização
+        // Itera sobre cada site no JSON
+        data.sites.forEach(site => {
+            // Cria um novo elemento div para representar o card do site
+            const siteCard = document.createElement('div');
+            siteCard.classList.add('content-card'); // Adiciona a classe para estilização
 
-      // Atualiza os elementos dentro do card com os dados do site atual
-      siteCard.innerHTML = `
+            // Atualiza os elementos dentro do card com os dados do site atual
+            siteCard.innerHTML = `
         <div class="card-image">
           <img src="${site.logo}" alt="${site.name}">
           <span>${site.name}</span>
@@ -30,22 +30,30 @@ fetchSitesData()
           </ul>
         </div>
         <div class="rating">
-          <p class="star-title">Avaliação da empresa:</p>
-          <div class="rankingBox">
-            <span class="rankingA">${site.rating}</span>
-            <span class="rankingB">/5</span>
-          </div>
+            <p class="star-title">Avaliação da empresa:</p>
+            <div class="rankingBox">
+                <span class="rankingA">${site.rating}</span>
+                <span class="rankingB">/5</span>
+            </div>
+            <ul class="rating_stars">
+                <!-- Adicionando estrelas dinamicamente com base na pontuação -->
+                ${Array.from({ length: 5 }).map((_, index) => `
+                    <li>
+                        <i class="${index < Math.floor(site.rating) ? 'fa-solid' : 'fa-regular'} fa-star" aria-hidden="true"></i>
+                    </li>
+                `).join('')}
+            </ul>
         </div>
         <div class="card-informations">
           <button class="btn-cta">Visitar</button>
         </div>
       `;
 
-      // Adiciona o card do site ao contêiner principal
-      sitesContainer.appendChild(siteCard);
+            // Adiciona o card do site ao contêiner principal
+            sitesContainer.appendChild(siteCard);
+        });
+    })
+    .catch(error => {
+        console.error('Erro geral:', error.message);
+        // Lide com o erro de maneira apropriada
     });
-  })
-  .catch(error => {
-    console.error('Erro geral:', error.message);
-    // Lide com o erro de maneira apropriada
-  });
