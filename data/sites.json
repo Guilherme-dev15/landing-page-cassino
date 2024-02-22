@@ -59,7 +59,7 @@
                     }
                 ]
             },
-            "rating": "4.6"
+            "rating": "2.9"
         },
         {
             "name": "Microsoft",
@@ -90,6 +90,36 @@
                 ]
             },
             "rating": "1.8"
+        },
+        {
+            "name": "Facebook",
+            "logo": "https://proxy.olhardigital.com.br/wp-content/uploads/2023/09/facebook-logo.png",
+            "headline": "Descubra a Evolução Digital com a Microsoft. Conectamos Sonhos através de Tecnologia Pioneira.",
+            "description": "Na Microsoft, forjamos o futuro digital. Oferecemos soluções inovadoras, conectando pessoas e ideias. Com compromisso inabalável à excelência, capacitamos indivíduos e organizações a atingirem todo seu potencial na era digital. ",
+            "category": {
+                "categories": [
+                    {
+                        "name": "Esporte +40",
+                        "value": "Sim"
+                    },
+                    {
+                        "name": "Cashout",
+                        "value": "Sim"
+                    },
+                    {
+                        "name": "Streaming",
+                        "value": "No"
+                    },
+                    {
+                        "name": "Dep. Min",
+                        "value": "R$50"
+                    },
+                    {
+                        "name": " Apps"
+                    }
+                ]
+            },
+            "rating": "5"
         }
     ]
 }
