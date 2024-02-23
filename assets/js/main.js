@@ -36,13 +36,19 @@ fetchSitesData()
                 <span class="rankingB">/5</span>
             </div>
             <ul class="rating_stars">
-                <!-- Adicionando estrelas dinamicamente com base na pontuação -->
-                ${Array.from({ length: 5 }).map((_, index) => `
+            <!-- Estrelas dinamicamente com base na pontuação -->
+            ${Array.from({ length: 5 }).map((_, index) => {
+                const rating = site.rating;
+                const halfStar = index === Math.floor(rating) && rating % 1 !== 0;
+                const fullStar = index < Math.floor(rating);
+                const starClass = halfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : 'fa-regular';
+                return `
                     <li>
-                        <i class="${index < Math.floor(site.rating) ? 'fa-solid' : 'fa-regular'} fa-star" aria-hidden="true"></i>
+                        <i class="${starClass} fa-star" aria-hidden="true"></i>
                     </li>
-                `).join('')}
-            </ul>
+                `;
+            }).join('')}
+        </ul>
         </div>
         <div class="card-informations">
           <button class="btn-cta">Visitar</button>
