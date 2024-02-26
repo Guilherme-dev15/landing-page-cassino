@@ -21,10 +21,11 @@ fetchSitesData()
                     </div>
                     <ul class="card-category">
                         ${site.category.categories.map(category => `
-                            <li class="categoria">${category.name}:
+                            <li class="categoria"><span>${category.name}:</span>
                                 <span>${category.value || "Não especificado"}</span>
                             </li>
                         `).join('')}
+
                     </ul>
                 </div>
                 <div class="rating">
@@ -36,20 +37,20 @@ fetchSitesData()
                     <ul class="rating_stars">
                         <!-- Estrelas dinamicamente com base na pontuação -->
                         ${Array.from({ length: 5 }).map((_, index) => {
-                            const rating = site.rating;
-                            const floorRating = Math.floor(rating);
-                            const hasHalfStar = index === floorRating && rating % 1 !== 0;
-                            const fullStar = index < floorRating;
-                            const notFull = index >= Math.ceil(rating);
+                const rating = site.rating;
+                const floorRating = Math.floor(rating);
+                const hasHalfStar = index === floorRating && rating % 1 !== 0;
+                const fullStar = index < floorRating;
+                const notFull = index >= Math.ceil(rating);
 
-                            const starClass = hasHalfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : notFull ? 'fa fa-star-o' : 'erro';
+                const starClass = hasHalfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : notFull ? 'fa fa-star-o' : 'erro';
 
-                            return `
+                return `
                                 <li>
                                     <i class="fa ${starClass} fa-star" aria-hidden="true"></i>
                                 </li>
                             `;
-                        }).join('')}
+            }).join('')}
                     </ul>
                 </div>
                 <div class="card-informations">
