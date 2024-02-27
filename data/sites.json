@@ -2,7 +2,8 @@
     "sites": [
       {
         "name": "Apple",
-        "logo": "https://w7.pngwing.com/pngs/695/105/png-transparent-apple-logo-business-apple-logo-outline-heart-logo-computer-wallpaper.png",
+        "logo": "https://i.imgur.com/EXAMPLE_APPLE_LOGO.png",
+        "link": "https://apple.com",
         "headline": "Apple: Transforming Technology into Experience. Discover the Innovation that Shapes the Future.",
         "description": "At Apple, excellence is our tradition. Explore innovative devices, immerse yourself in a harmonious digital ecosystem, and experience the forefront of technology. Be inspired by the elegance and innovation that define the Apple experience.",
         "category": {
@@ -14,104 +15,90 @@
             { "name": "Category 5", "value": "Value 5" }
           ]
         },
-        "rating": "4.8"
+        "rating": "4.8",
+        "bonus": "Bonus of $500",
+        "bonusDescription": "Exclusive bonus for new users",
+        "bonusLink": "https://apple.com/bonus",
+        "minimumDeposit": "$20",
+        "percentage": "150%",
+        "rollover": "x10",
+        "validity": "45 days",
+        "promoCode": "APPLEROCKS"
       },
       {
         "name": "HOSTINGER",
-        "logo": "https://www.hostinger.com.br/h-assets/svg/icons/logos/hostinger-logo.svg#svgView(viewBox(0%200%20147%2030))",
-        "headline": "WEBSITE HOSTING PLATFORM",
-        "description": "We are a website hosting provider with a mission to promote success to all individuals who want to start their online journey. We always seek to improve the technology of our servers, offer professional support, and make the experience with website hosting as best as possible.",
+        "logo": "https://i.imgur.com/EXAMPLE_HOSTINGER_LOGO.png",
+        "link": "https://hostinger.com",
+        "headline": "HOSTINGER Hosting Platform",
+        "description": "We are a website hosting provider with the mission of promoting success to all people who want to start their online journey. We always seek to improve our server technology, offer professional support, and make the website hosting experience as good as possible.",
         "category": {
           "categories": [
             { "name": "Sport +40", "value": "Yes" },
             { "name": "Cashout", "value": "Yes" },
             { "name": "Streaming", "value": "No" },
-            { "name": "Min. Deposit", "value": "10$" },
-            { "name": "Apps" }
+            { "name": "Min. Deposit", "value": "$10" },
+            { "name": "Apps", "value": "Yes" }
           ]
         },
-        "rating": "2.9"
+        "rating": "2.9",
+        "bonus": "Special Offer: 50% Off",
+        "bonusDescription": "Limited-time offer for new customers",
+        "bonusLink": "https://hostinger.com/special-offer",
+        "minimumDeposit": "$10",
+        "percentage": "50%",
+        "rollover": "x5",
+        "validity": "30 days",
+        "promoCode": "HOST50OFF"
       },
       {
         "name": "Microsoft",
-        "logo": "https://i.pinimg.com/originals/cd/77/e0/cd77e04d9fe1a4ac66a26693d05e02c4.jpg",
-        "headline": "Get Inspired by Digital Evolution. Connect Dreams with Pioneer Technology.",
-        "description": "At Microsoft, we are shaping the digital future. We offer innovative technological solutions, connecting people and ideas. With an unwavering commitment to excellence, we empower individuals and organizations to achieve their full potential in the digital world.",
+        "logo": "https://i.imgur.com/EXAMPLE_MICROSOFT_LOGO.png",
+        "link": "https://microsoft.com",
+        "headline": "Inspire-se na Evolução Digital. Conectamos Sonhos com Tecnologia Pioneira.",
+        "description": "Na Microsoft, estamos moldando o futuro digital. Oferecemos soluções tecnológicas inovadoras, conectando pessoas e ideias. Com um compromisso inabalável com a excelência, capacitamos indivíduos e organizações a alcançarem todo o seu potencial no mundo digital.",
         "category": {
           "categories": [
-            { "name": "Sport +40", "value": "Yes" },
-            { "name": "Cashout", "value": "Yes" },
+            { "name": "Esporte +40", "value": "Sim" },
+            { "name": "Cashout", "value": "Sim" },
             { "name": "Streaming", "value": "No" },
-            { "name": "Min. Deposit", "value": "R$50" },
-            { "name": "Apps" }
+            { "name": "Dep. Min", "value": "R$50" },
+            { "name": "Apps", "value": "Yes" }
           ]
         },
-        "rating": "3.4"
+        "rating": "3.4",
+        "bonus": "Welcome Bonus: $100",
+        "bonusDescription": "Claim your welcome bonus now",
+        "bonusLink": "https://microsoft.com/welcome-bonus",
+        "minimumDeposit": "R$50",
+        "percentage": "100%",
+        "rollover": "x7",
+        "validity": "60 days",
+        "promoCode": "MSFTWELCOME"
       },
       {
         "name": "Facebook",
-        "logo": "https://proxy.olhardigital.com.br/wp-content/uploads/2023/09/facebook-logo.png",
-        "headline": "Discover Digital Evolution with Microsoft. Connect Dreams through Pioneer Technology.",
-        "description": "At Microsoft, we forge the digital future. We offer innovative solutions, connecting people and ideas. With an unwavering commitment to excellence, we empower individuals and organizations to reach their full potential in the digital age.",
+        "logo": "https://i.imgur.com/EXAMPLE_FACEBOOK_LOGO.png",
+        "link": "https://facebook.com",
+        "headline": "Descubra a Evolução Digital com a Microsoft. Conectamos Sonhos através de Tecnologia Pioneira.",
+        "description": "Na Microsoft, forjamos o futuro digital. Oferecemos soluções inovadoras, conectando pessoas e ideias. Com compromisso inabalável à excelência, capacitamos indivíduos e organizações a atingirem todo seu potencial na era digital.",
         "category": {
           "categories": [
-            { "name": "Sport +40", "value": "Yes" },
-            { "name": "Cashout", "value": "Yes" },
+            { "name": "Esporte +40", "value": "Sim" },
+            { "name": "Cashout", "value": "Sim" },
             { "name": "Streaming", "value": "No" },
-            { "name": "Min. Deposit", "value": "R$50" },
-            { "name": "Apps" }
+            { "name": "Dep. Min", "value": "R$50" },
+            { "name": "Apps", "value": "Yes" }
           ]
         },
-        "rating": "5"
-      },
-      {
-        "name": "Google",
-        "logo": "https://logosmarcas.net/wp-content/uploads/2020/09/Google-Logo-2015-presente.png",
-        "headline": "Empowering the World through Information Access. Explore Innovation with Google.",
-        "description": "Google is a global technology leader committed to organizing the world's information and making it universally accessible and useful. Dive into a world of innovation, explore cutting-edge technologies, and experience the power of information at your fingertips.",
-        "category": {
-          "categories": [
-            { "name": "Sport +40", "value": "Yes" },
-            { "name": "Cashout", "value": "Yes" },
-            { "name": "Streaming", "value": "Yes" },
-            { "name": "Min. Deposit", "value": "R$20" },
-            { "name": "Apps" }
-          ]
-        },
-        "rating": "4.5"
-      },
-      {
-        "name": "Amazon",
-        "logo": "https://logo.clearbit.com/amazon.com",
-        "headline": "Elevating Online Shopping and Beyond. Explore the Infinite Possibilities with Amazon.",
-        "description": "Amazon, the world's largest online retailer, offers a diverse range of products and services. From e-commerce and cloud computing to artificial intelligence, Amazon is at the forefront of technological innovation. Embark on a journey of endless possibilities with Amazon.",
-        "category": {
-          "categories": [
-            { "name": "Sport +40", "value": "Yes" },
-            { "name": "Cashout", "value": "No" },
-            { "name": "Streaming", "value": "Yes" },
-            { "name": "Min. Deposit", "value": "R$30" },
-            { "name": "Apps" }
-          ]
-        },
-        "rating": "4.2"
-      },
-      {
-        "name": "Tesla",
-        "logo": "https://1000logos.net/wp-content/uploads/2018/02/Logo-Tesla.jpg",
-        "headline": "Revolutionizing the Automotive Industry. Experience the Future of Transportation with Tesla.",
-        "description": "Tesla is at the forefront of electric vehicle innovation, committed to transforming the automotive industry. With cutting-edge technology and a focus on sustainability, Tesla offers a glimpse into the future of transportation. Join the electric revolution with Tesla.",
-        "category": {
-          "categories": [
-            { "name": "Sport +40", "value": "No" },
-            { "name": "Cashout", "value": "No" },
-            { "name": "Streaming", "value": "No" },
-            { "name": "Min. Deposit", "value": "Not applicable" },
-            { "name": "Apps" }
-          ]
-        },
-        "rating": "4.9"
+        "rating": "5",
+        "bonus": "Exclusive Facebook Offer",
+        "bonusDescription": "Join now and get exclusive benefits",
+        "bonusLink": "https://facebook.com/exclusive-offer",
+        "minimumDeposit": "R$50",
+        "percentage": "200%",
+        "rollover": "x10",
+        "validity": "45 days",
+        "promoCode": "FBEXCLUSIVE"
       }
     ]
   }
-  

@@ -20,7 +20,8 @@ fetchSitesData()
                                 </a>
                                 <span class="betting-house-name">${site.name}</span>
                             </div>
-                            <div class="rating-box text-center relative">
+                            <!--Rating hidden-->
+                            <div class="" hidden>
                                 <p class="line-height-text">Rating</p>
                                 <p class="line-height-text">of this house</p>
                                 <div class="rating-info relative">
@@ -46,6 +47,7 @@ fetchSitesData()
                                     </div>
                                 </div>
                             </div>
+                            <!--Rating hidden-->
                         </div>
 
                         <!-- Bonus and Terms -->
@@ -81,17 +83,15 @@ fetchSitesData()
                                         <div class="stars">
                                             <!-- Stars dynamically based on the rating -->
                                             ${Array.from({ length: 5 }).map((_, index) => {
-                            const floorRating = Math.floor(site.rating);
-                            const hasHalfStar = index === floorRating && site.rating % 1 !== 0;
-                            const fullStar = index < floorRating;
-                            const notFull = index >= Math.ceil(site.rating);
-
-                            const starClass = hasHalfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : notFull ? 'fa fa-star-o' : 'error';
-
-                            return `
+                                            const floorRating = Math.floor(site.rating);
+                                            const hasHalfStar = index === floorRating && site.rating % 1 !== 0;
+                                            const fullStar = index < floorRating;
+                                            const notFull = index >= Math.ceil(site.rating);
+                                            const starClass = hasHalfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : notFull ? 'fa fa-star-o' : 'error';
+                                            return `
                                                     <i class="fa ${starClass} fa-star" aria-hidden="true"></i>
                                                 `;
-                        }).join('')}
+                                           }).join('')}
                                         </div>
                                     </div>
                                 </div>
