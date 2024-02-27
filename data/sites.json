@@ -2,8 +2,7 @@
     "sites": [
       {
         "name": "Apple",
-        "logo": "https://i.imgur.com/EXAMPLE_APPLE_LOGO.png",
-        "link": "https://apple.com",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQkvkt4Qfzh-A5K_3ct689q7ikgyvK5trUffcbXJ53bEYfA3IDbN4RNsXb10ma_t5-ks&usqp=CAU",
         "headline": "Apple: Transforming Technology into Experience. Discover the Innovation that Shapes the Future.",
         "description": "At Apple, excellence is our tradition. Explore innovative devices, immerse yourself in a harmonious digital ecosystem, and experience the forefront of technology. Be inspired by the elegance and innovation that define the Apple experience.",
         "category": {
@@ -27,7 +26,7 @@
       },
       {
         "name": "HOSTINGER",
-        "logo": "https://i.imgur.com/EXAMPLE_HOSTINGER_LOGO.png",
+        "logo": "https://cuponomia-a.akamaihd.net/img/stores/original/hostinger-638233955282315905.png",
         "link": "https://hostinger.com",
         "headline": "HOSTINGER Hosting Platform",
         "description": "We are a website hosting provider with the mission of promoting success to all people who want to start their online journey. We always seek to improve our server technology, offer professional support, and make the website hosting experience as good as possible.",
@@ -52,7 +51,7 @@
       },
       {
         "name": "Microsoft",
-        "logo": "https://i.imgur.com/EXAMPLE_MICROSOFT_LOGO.png",
+        "logo": "https://cdn2.iconfinder.com/data/icons/metro-ui-icon-set/512/Microsoft_New_Logo.png",
         "link": "https://microsoft.com",
         "headline": "Inspire-se na Evolução Digital. Conectamos Sonhos com Tecnologia Pioneira.",
         "description": "Na Microsoft, estamos moldando o futuro digital. Oferecemos soluções tecnológicas inovadoras, conectando pessoas e ideias. Com um compromisso inabalável com a excelência, capacitamos indivíduos e organizações a alcançarem todo o seu potencial no mundo digital.",
@@ -77,7 +76,7 @@
       },
       {
         "name": "Facebook",
-        "logo": "https://i.imgur.com/EXAMPLE_FACEBOOK_LOGO.png",
+        "logo": "https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png",
         "link": "https://facebook.com",
         "headline": "Descubra a Evolução Digital com a Microsoft. Conectamos Sonhos através de Tecnologia Pioneira.",
         "description": "Na Microsoft, forjamos o futuro digital. Oferecemos soluções inovadoras, conectando pessoas e ideias. Com compromisso inabalável à excelência, capacitamos indivíduos e organizações a atingirem todo seu potencial na era digital.",
