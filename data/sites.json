@@ -1,125 +1,117 @@
 {
     "sites": [
-        {
-            "name": "Apple",
-            "logo": "https://w7.pngwing.com/pngs/695/105/png-transparent-apple-logo-business-apple-logo-outline-heart-logo-computer-wallpaper.png",
-            "headline": "Apple: Transformando Tecnologia em Experiência. Descubra a Inovação que Define o Futuro.",
-            "description": "Na Apple, a excelência é nossa tradição. Explore dispositivos inovadores, mergulhe em um ecossistema digital harmonioso e experimente a vanguarda da tecnologia. Seja inspirado pela elegância e inovação que definem a experiência Apple.",
-            "category": {
-                "categories": [
-                    {
-                        "name": "Categoria 1",
-                        "value": "Valor 1"
-                    },
-                    {
-                        "name": "Categoria 2",
-                        "value": "Valor 2"
-                    },
-                    {
-                        "name": "Categoria 3",
-                        "value": "Valor 3"
-                    },
-                    {
-                        "name": "Categoria 4",
-                        "value": "Valor 4"
-                    },
-                    {
-                        "name": "Categoria 5",
-                        "value": "Valor 5"
-                    }
-                ]
-            },
-            "rating": "4.8"
+      {
+        "name": "Apple",
+        "logo": "https://w7.pngwing.com/pngs/695/105/png-transparent-apple-logo-business-apple-logo-outline-heart-logo-computer-wallpaper.png",
+        "headline": "Apple: Transforming Technology into Experience. Discover the Innovation that Shapes the Future.",
+        "description": "At Apple, excellence is our tradition. Explore innovative devices, immerse yourself in a harmonious digital ecosystem, and experience the forefront of technology. Be inspired by the elegance and innovation that define the Apple experience.",
+        "category": {
+          "categories": [
+            { "name": "Category 1", "value": "Value 1" },
+            { "name": "Category 2", "value": "Value 2" },
+            { "name": "Category 3", "value": "Value 3" },
+            { "name": "Category 4", "value": "Value 4" },
+            { "name": "Category 5", "value": "Value 5" }
+          ]
         },
-        {
-            "name": "HOSTINGER",
-            "logo": "https://www.hostinger.com.br/h-assets/svg/icons/logos/hostinger-logo.svg#svgView(viewBox(0%200%20147%2030))",
-            "headline": "PLATAFORMA DE HOSPEDAGEM DE SITES",
-            "description": "Somos uma provedora de hospedagem de sites com a missão de promover o sucesso a todas as pessoas que querem começar sua jornada online. Buscamos sempre melhorar a tecnologia dos nossos servidores, oferecer um suporte profissional e tornar a experiência com a hospedagem de sites a melhor possível.",
-            "category": {
-                "categories": [
-                    {
-                        "name": "Esporte +40",
-                        "value": "Sim"
-                    },
-                    {
-                        "name": "Cashout",
-                        "value": "Sim"
-                    },
-                    {
-                        "name": "Streaming",
-                        "value": "No"
-                    },
-                    {
-                        "name": "Dep. Min",
-                        "value": "10$"
-                    },
-                    {
-                        "name": " Apps"
-                    }
-                ]
-            },
-            "rating": "2.9"
+        "rating": "4.8"
+      },
+      {
+        "name": "HOSTINGER",
+        "logo": "https://www.hostinger.com.br/h-assets/svg/icons/logos/hostinger-logo.svg#svgView(viewBox(0%200%20147%2030))",
+        "headline": "WEBSITE HOSTING PLATFORM",
+        "description": "We are a website hosting provider with a mission to promote success to all individuals who want to start their online journey. We always seek to improve the technology of our servers, offer professional support, and make the experience with website hosting as best as possible.",
+        "category": {
+          "categories": [
+            { "name": "Sport +40", "value": "Yes" },
+            { "name": "Cashout", "value": "Yes" },
+            { "name": "Streaming", "value": "No" },
+            { "name": "Min. Deposit", "value": "10$" },
+            { "name": "Apps" }
+          ]
         },
-        {
-            "name": "Microsoft",
-            "logo": "https://i.pinimg.com/originals/cd/77/e0/cd77e04d9fe1a4ac66a26693d05e02c4.jpg",
-            "headline": "Inspire-se na Evolução Digital. Conectamos Sonhos com Tecnologia Pioneira.",
-            "description": "Na Microsoft, estamos moldando o futuro digital. Oferecemos soluções tecnológicas inovadoras, conectando pessoas e ideias. Com um compromisso inabalável com a excelência, capacitamos indivíduos e organizações a alcançarem todo o seu potencial no mundo digital.",
-            "category": {
-                "categories": [
-                    {
-                        "name": "Esporte +40",
-                        "value": "Sim"
-                    },
-                    {
-                        "name": "Cashout",
-                        "value": "Sim"
-                    },
-                    {
-                        "name": "Streaming",
-                        "value": "No"
-                    },
-                    {
-                        "name": "Dep. Min",
-                        "value": "R$50"
-                    },
-                    {
-                        "name": " Apps"
-                    }
-                ]
-            },
-            "rating": "3.4"
+        "rating": "2.9"
+      },
+      {
+        "name": "Microsoft",
+        "logo": "https://i.pinimg.com/originals/cd/77/e0/cd77e04d9fe1a4ac66a26693d05e02c4.jpg",
+        "headline": "Get Inspired by Digital Evolution. Connect Dreams with Pioneer Technology.",
+        "description": "At Microsoft, we are shaping the digital future. We offer innovative technological solutions, connecting people and ideas. With an unwavering commitment to excellence, we empower individuals and organizations to achieve their full potential in the digital world.",
+        "category": {
+          "categories": [
+            { "name": "Sport +40", "value": "Yes" },
+            { "name": "Cashout", "value": "Yes" },
+            { "name": "Streaming", "value": "No" },
+            { "name": "Min. Deposit", "value": "R$50" },
+            { "name": "Apps" }
+          ]
         },
-        {
-            "name": "Facebook",
-            "logo": "https://proxy.olhardigital.com.br/wp-content/uploads/2023/09/facebook-logo.png",
-            "headline": "Descubra a Evolução Digital com a Microsoft. Conectamos Sonhos através de Tecnologia Pioneira.",
-            "description": "Na Microsoft, forjamos o futuro digital. Oferecemos soluções inovadoras, conectando pessoas e ideias. Com compromisso inabalável à excelência, capacitamos indivíduos e organizações a atingirem todo seu potencial na era digital. ",
-            "category": {
-                "categories": [
-                    {
-                        "name": "Esporte +40",
-                        "value": "Sim"
-                    },
-                    {
-                        "name": "Cashout",
-                        "value": "Sim"
-                    },
-                    {
-                        "name": "Streaming",
-                        "value": "No"
-                    },
-                    {
-                        "name": "Dep. Min",
-                        "value": "R$50"
-                    },
-                    {
-                        "name": " Apps"
-                    }
-                ]
-            },
-            "rating": "5"
-        }
+        "rating": "3.4"
+      },
+      {
+        "name": "Facebook",
+        "logo": "https://proxy.olhardigital.com.br/wp-content/uploads/2023/09/facebook-logo.png",
+        "headline": "Discover Digital Evolution with Microsoft. Connect Dreams through Pioneer Technology.",
+        "description": "At Microsoft, we forge the digital future. We offer innovative solutions, connecting people and ideas. With an unwavering commitment to excellence, we empower individuals and organizations to reach their full potential in the digital age.",
+        "category": {
+          "categories": [
+            { "name": "Sport +40", "value": "Yes" },
+            { "name": "Cashout", "value": "Yes" },
+            { "name": "Streaming", "value": "No" },
+            { "name": "Min. Deposit", "value": "R$50" },
+            { "name": "Apps" }
+          ]
+        },
+        "rating": "5"
+      },
+      {
+        "name": "Google",
+        "logo": "https://www.gstatic.com/webp/gallery/1.jpg",
+        "headline": "Empowering the World through Information Access. Explore Innovation with Google.",
+        "description": "Google is a global technology leader committed to organizing the world's information and making it universally accessible and useful. Dive into a world of innovation, explore cutting-edge technologies, and experience the power of information at your fingertips.",
+        "category": {
+          "categories": [
+            { "name": "Sport +40", "value": "Yes" },
+            { "name": "Cashout", "value": "Yes" },
+            { "name": "Streaming", "value": "Yes" },
+            { "name": "Min. Deposit", "value": "R$20" },
+            { "name": "Apps" }
+          ]
+        },
+        "rating": "4.5"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://logo.clearbit.com/amazon.com",
+        "headline": "Elevating Online Shopping and Beyond. Explore the Infinite Possibilities with Amazon.",
+        "description": "Amazon, the world's largest online retailer, offers a diverse range of products and services. From e-commerce and cloud computing to artificial intelligence, Amazon is at the forefront of technological innovation. Embark on a journey of endless possibilities with Amazon.",
+        "category": {
+          "categories": [
+            { "name": "Sport +40", "value": "Yes" },
+            { "name": "Cashout", "value": "No" },
+            { "name": "Streaming", "value": "Yes" },
+            { "name": "Min. Deposit", "value": "R$30" },
+            { "name": "Apps" }
+          ]
+        },
+        "rating": "4.2"
+      },
+      {
+        "name": "Tesla",
+        "logo": "https://www.logo-designer.co/wp-content/uploads/2017/03/2017-tesla-logo-design.png",
+        "headline": "Revolutionizing the Automotive Industry. Experience the Future of Transportation with Tesla.",
+        "description": "Tesla is at the forefront of electric vehicle innovation, committed to transforming the automotive industry. With cutting-edge technology and a focus on sustainability, Tesla offers a glimpse into the future of transportation. Join the electric revolution with Tesla.",
+        "category": {
+          "categories": [
+            { "name": "Sport +40", "value": "No" },
+            { "name": "Cashout", "value": "No" },
+            { "name": "Streaming", "value": "No" },
+            { "name": "Min. Deposit", "value": "Not applicable" },
+            { "name": "Apps" }
+          ]
+        },
+        "rating": "4.9"
+      }
     ]
-}
+  }
+  

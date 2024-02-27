@@ -10,53 +10,107 @@ fetchSitesData()
             siteCard.classList.add('content-card'); // Adiciona a classe para estilização
             // Atualiza os elementos dentro do card com os dados do site atual
             siteCard.innerHTML = `
-                <div class="card-image">
-                    <img src="${site.logo}" alt="${site.name}">
-                    <span>${site.name}</span>
-                </div>
-                <div class="container-description">
-                    <div class="card-description">
-                        <h2>${site.headline}</h2>
-                        <p>${site.description}</p>
+                <div class="betting-house-container">
+                    <div class="betting-house-info">
+                        <!-- Logo -->
+                        <div class="logo-section">
+                            <div class="logo-content">
+                                <a href="${site.link}">
+                                    <img class="logo-image" src="${site.logo}" alt="${site.name}">
+                                </a>
+                                <span class="betting-house-name">${site.name}</span>
+                            </div>
+                            <div class="rating-box text-center relative">
+                                <p class="line-height-text">Rating</p>
+                                <p class="line-height-text">of this house</p>
+                                <div class="rating-info relative">
+                                    <span class="rating-number">${site.rating}</span>
+                                    <span> / 5</span>
+                                    <div class="stars-container relative">
+                                        <span class="screen-reader-text">${site.rating} rating</span>
+                                        <div class="stars">
+                                            <!-- Stars dynamically based on the rating -->
+                                            ${Array.from({ length: 5 }).map((_, index) => {
+                            const floorRating = Math.floor(site.rating);
+                            const hasHalfStar = index === floorRating && site.rating % 1 !== 0;
+                            const fullStar = index < floorRating;
+                            const notFull = index >= Math.ceil(site.rating);
+
+                            const starClass = hasHalfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : notFull ? 'fa fa-star-o' : 'error';
+
+                            return `
+                                                    <i class="fa ${starClass} fa-star" aria-hidden="true"></i>
+                                                `;
+                        }).join('')}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bonus and Terms -->
+                        <div class="bonus-section">
+                            <div class="bonus-content">
+                                <strong class="bonus-amount">${site.bonus}</strong>
+                                <span class="bonus-description">${site.description}</span>
+                                <div>
+                                    <a href="${site.bonusLink}">Read more about the bonus</a>
+                                </div>
+                                <div class="bonus-details">
+                                    <div class="bonus-detail">
+                                        <div>Min. Deposit<span>${site.minimumDeposit}</span></div>
+                                        <div>Percentage<span>${site.percentage}</span></div>
+                                        <div>Rollover<span>${site.rollover}</span></div>
+                                        <div>Validity<span>${site.validity}</span></div>
+                                        <div>Promo Code<span>${site.promoCode}</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Desktop Rating -->
+                        <div class="desktop-rating-section">
+                            <div class="desktop-rating-content">
+                                <p>Rating</p>
+                                <p>of this house</p>
+                                <div class="desktop-rating-info">
+                                    <span>${site.rating}</span>
+                                    <span> / 5</span>
+                                    <div class="stars-container">
+                                        <span class="screen-reader-text">${site.rating} rating</span>
+                                        <div class="stars">
+                                            <!-- Stars dynamically based on the rating -->
+                                            ${Array.from({ length: 5 }).map((_, index) => {
+                            const floorRating = Math.floor(site.rating);
+                            const hasHalfStar = index === floorRating && site.rating % 1 !== 0;
+                            const fullStar = index < floorRating;
+                            const notFull = index >= Math.ceil(site.rating);
+
+                            const starClass = hasHalfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : notFull ? 'fa fa-star-o' : 'error';
+
+                            return `
+                                                    <i class="fa ${starClass} fa-star" aria-hidden="true"></i>
+                                                `;
+                        }).join('')}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Visit Button -->
+                        <div class="visit-button-section">
+                            <div class="visit-button-content">
+                                <button class="cta-casino">Visit</button>
+                            </div>
+                            <div class="bonus-link">
+                                <a href="${site.bonusLink}">Read more about the bonus</a>
+                            </div>
+                        </div>
                     </div>
-                    <ul class="card-category">
-                        ${site.category.categories.map(category => `
-                            <li class="categoria"><span>${category.name}:</span>
-                                <span>${category.value || "Não especificado"}</span>
-                            </li>
-                        `).join('')}
-
-                    </ul>
-                </div>
-                <div class="rating">
-                    <p class="star-title">Avaliação da empresa:</p>
-                    <div class="rankingBox">
-                        <span class="rankingA">${site.rating}</span>
-                        <span class="rankingB">/5</span>
-                    </div>
-                    <ul class="rating_stars">
-                        <!-- Estrelas dinamicamente com base na pontuação -->
-                        ${Array.from({ length: 5 }).map((_, index) => {
-                const rating = site.rating;
-                const floorRating = Math.floor(rating);
-                const hasHalfStar = index === floorRating && rating % 1 !== 0;
-                const fullStar = index < floorRating;
-                const notFull = index >= Math.ceil(rating);
-
-                const starClass = hasHalfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : notFull ? 'fa fa-star-o' : 'erro';
-
-                return `
-                                <li>
-                                    <i class="fa ${starClass} fa-star" aria-hidden="true"></i>
-                                </li>
-                            `;
-            }).join('')}
-                    </ul>
-                </div>
-                <div class="card-informations">
-                    <button class="btn-cta">Visitar</button>
                 </div>
             `;
+
             // Adiciona o card do site ao contêiner principal
             sitesContainer.appendChild(siteCard);
         });
