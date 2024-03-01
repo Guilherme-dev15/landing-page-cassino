@@ -20,15 +20,13 @@ fetchSitesData()
                                 </a>
                                 <span class="betting-house-name">${site.name}</span>
                             </div>
-                            <!--Rating hidden-->
-                            <div class="" hidden>
+                            <div class="desktop-rating-content-mobile">
                                 <p class="line-height-text">Rating</p>
                                 <p class="line-height-text">of this house</p>
                                 <div class="rating-info relative">
                                     <span class="rating-number">${site.rating}</span>
                                     <span> / 5</span>
                                     <div class="stars-container relative">
-                                        <span class="screen-reader-text">${site.rating} rating</span>
                                         <div class="stars">
                                             <!-- Stars dynamically based on the rating -->
                                             ${Array.from({ length: 5 }).map((_, index) => {
@@ -47,24 +45,23 @@ fetchSitesData()
                                     </div>
                                 </div>
                             </div>
-                            <!--Rating hidden-->
                         </div>
 
                         <!-- Bonus and Terms -->
                         <div class="bonus-section">
                             <div class="bonus-content">
-                                <strong class="bonus-amount">${site.bonus}</strong>
+                                <h1 class="bonus-amount">${site.bonus}</h1>
                                 <span class="bonus-description">${site.description}</span>
                                 <div>
                                     <a href="${site.bonusLink}">Read more about the bonus</a>
                                 </div>
                                 <div class="bonus-details">
                                     <div class="bonus-detail">
-                                        <div>Min. Deposit<span>${site.minimumDeposit}</span></div>
-                                        <div>Percentage<span>${site.percentage}</span></div>
-                                        <div>Rollover<span>${site.rollover}</span></div>
-                                        <div>Validity<span>${site.validity}</span></div>
-                                        <div>Promo Code<span>${site.promoCode}</span></div>
+                                        <div><span>Min. Deposit</span><span> ${site.minimumDeposit}</span></div>
+                                        <div><span>Percentage</span><span> ${site.percentage}</span></div>
+                                        <div><span>Rollover</span><span> ${site.rollover}</span></div>
+                                        <div><span>Validity</span><span> ${site.validity}</span></div>
+                                        <!--div><span>Promo Code</span><span> ${site.promoCode}</span></div-->
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +76,6 @@ fetchSitesData()
                                     <span>${site.rating}</span>
                                     <span> / 5</span>
                                     <div class="stars-container">
-                                        <span class="screen-reader-text">${site.rating} rating</span>
                                         <div class="stars">
                                             <!-- Stars dynamically based on the rating -->
                                             ${Array.from({ length: 5 }).map((_, index) => {

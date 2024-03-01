@@ -13,21 +13,27 @@
 }
 
 body {
-    background-color: #0e0618;
+
+    background-color: #1c093a;
 }
 
 header {
     display: flex;
     justify-content: center;
+    width: 100%;
+    background-color: #0e0618;
+    min-width: 300px;
+    box-sizing: border-box;
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
-    padding: 20px 20px;
-    width: 1580px;
+    width: 100%;
+    padding: 20px;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .nav-menu img {
@@ -35,13 +41,12 @@ header {
     height: 80px;
     border-radius: 999px;
     border: 1px solid #520fa3;
-    transition: 300ms;
+    transition: transform 300ms, cursor 300ms;
 }
 
 .nav-menu img:hover {
     transform: scale(1.1);
     cursor: pointer;
-    transition: 300ms;
 }
 
 .nav-menu ul {
@@ -55,25 +60,374 @@ header {
     text-decoration: none;
     font-size: 2rem;
     font-weight: 700;
-    transition: 300ms;
+    transition: color 300ms;
     color: #ffffff;
 }
 
 .nav-menu ul li a:hover {
     cursor: pointer;
     color: #af8add;
-    transition: 600ms;
+    transition: color 600ms;
 }
 
-.logo-content a img{
-    width: 120px;
-    height: 120px;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    min-width: 285px;
 }
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    font-family: "Roboto", serif;
+    padding: 2rem;
+    background-color: #0e0618;
+}
+
+.title-description h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.title-description p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    cursor: pointer;
+}
+
 .content-card * {
     color: #000;
 }
+
 .betting-house-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
     background-color: #FFFFFF;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 0 2rem;
+    transition: all 500ms;
+}
+
+.betting-house-info:hover {
+    transform: scale(1.1);
+    transition: all 500ms;
+    border: #5913ad solid 3px;
+    border-radius: 10px;
+}
+
+.betting-house-info .logo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+}
+
+.logo-section .logo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    max-height: 120px;
+}
+
+.logo-content a img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.bonus-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.bonus-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bonus-section .bonus-amount {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #520fa3;
+}
+
+.bonus-section .bonus-description {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.bonus-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonus-section div a {
+    display: none;
+}
+
+.bonus-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.bonus-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.bonus-detail div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0 2px;
+    border-right: solid 1.5px rgb(224, 224, 224);
+    line-height: 1;
+}
+
+.bonus-detail div span:nth-child(1) {
+    font-weight: 700;
+}
+
+.bonus-detail span {
+    font-size: 1.2rem;
+}
+
+.desktop-rating-content {
+    display: none;
+}
+
+.visit-button-content {
+    width: 100%;
+}
+
+.desktop-rating-section .desktop-rating-content p {
+    color: #b1b0b0;
+    font-size: 1.2rem;
+}
+
+.visit-button-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.rating-info .rating-number {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.visit-button-section .cta-casino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #520fa3;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 300ms, cursor 300ms;
+}
+
+.visit-button-section .cta-casino:hover {
+    background-color: #3e0d8a;
+    cursor: pointer;
+}
+
+.stars-container .stars i {
+    color: #5508b4;
+}
+
+.bonus-link {
+    display: none;
+}
+
+.help-informations {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    font-family: "Roboto", serif;
+    padding: 2rem;
+    background-color: #1a0041b4;
+}
+
+.help-informations h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.help-informations p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+    max-width: 1024px;
+}
+
+.help-informations h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    max-height: 100%;
+    background-color: #0e0618;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .content-card {
+        flex: 1;
+    }
+
+    .help-informations {
+        align-items: center;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .title-description {
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .title-description h1 {
+        max-width: 1024px;
+    }
+
+    .title-description p {
+        max-width: 1024px;
+        text-align: justify;
+    }
+
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-card {
+        max-width: 80%;
+    }
+
+    .betting-house-info {
+        flex-direction: row;
+    }
+
+    .betting-house-info .logo-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16%;
+    }
+
+    .bonus-section {
+        width: 50%;
+    }
+
+    .bonus-content {
+        padding-bottom: 2rem;
+    }
+
+    .desktop-rating-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16%;
+    }
+
+    .desktop-rating-info span:nth-child(1) {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .visit-button-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16%;
+    }
+
+    .desktop-rating-content-mobile {
+        display: none;
+    }
+
+    .desktop-rating-content {
+        display: block;
+    }
+
+    .help-informations {
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .help-informations h2 {
+        max-width: 1024px;
+    }
+
+    .help-informations p {
+        width: 62vw;
+        text-align: justify;
+    }
 }
