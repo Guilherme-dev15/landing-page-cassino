@@ -1,4 +1,3 @@
-// Exemplo de uso
 fetchSitesData()
     .then(data => {
         console.log('Dados recebidos:', data);

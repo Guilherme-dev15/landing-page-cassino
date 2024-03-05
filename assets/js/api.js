@@ -14,3 +14,21 @@ async function fetchSitesData() {
         throw error;
     }
 }
+
+
+// Função para buscar dados da API FAQ
+async function fetchFaqData() {
+    try {
+        const response = await fetch('../../data/faq.json');
+
+        if (!response.ok) {
+            throw new Error(`Erro ao buscar dados. Código: ${response.status}`);
+        }
+
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Erro na solicitação:', error.message);
+        throw error;
+    }
+}

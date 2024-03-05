@@ -1,0 +1,27 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --primary-color: #520FA3;
+    --secondary-color: #FFFFFF;
+    --background-body: #0E0618;
+    --background-header: #0E0618;
+    --link-color: #FFFFFF;
+    --link-hover-color: #AF8ADD;
+    --card-background: #1C093A;
+    --card-text: #000;
+    --accordion-text: #a1a1a1;
+    --betting-house-background: #FFFFFF;
+    --betting-house-hover-background: #FFFFFF;
+    --betting-house-border: #5913AD;
+    --bonus-amount-color: #520FA3;
+    --bonus-description-color: #000000;
+    --visit-button-background: #520FA3;
+    --visit-button-hover-background: #3E0D8A;
+    --rating-number-color: #520FA3;
+    --help-info-background: #0E0618;
+    --help-info-text: #ffffff;
+    --footer-background: #333;
+    --footer-text: #fff;
+    --privacy-link-color: #fff;
+    --privacy-link-hover-color: #fff;
+    --accordion-content: #FFFFFF;
+}

@@ -1,3 +1,5 @@
+@import url(./styleDefault.css);
+
 :root {
     font-size: 65.5%;
     /* % = 10px */
@@ -9,19 +11,19 @@
     margin: 0;
     font-size: 1.6rem;
     font-family: "Roboto", sans-serif;
-    color: #FFFFFF;
+    color: var(--secondary-color);
 }
 
 body {
+    background-color: var(--background-body);
 
-    background-color: #1c093a;
 }
 
 header {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: #0e0618;
+    background-color: var(--background-header);
     min-width: 300px;
     box-sizing: border-box;
 }
@@ -61,12 +63,12 @@ header {
     font-size: 2rem;
     font-weight: 700;
     transition: color 300ms;
-    color: #ffffff;
+    color: var(--link-color);
 }
 
 .nav-menu ul li a:hover {
     cursor: pointer;
-    color: #af8add;
+    color: var(--link-hover-color);
     transition: color 600ms;
 }
 
@@ -74,8 +76,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
     min-width: 285px;
+    background-color: var(--card-background);
 }
 
 .title-description {
@@ -85,7 +87,7 @@ main {
     gap: 2rem;
     font-family: "Roboto", serif;
     padding: 2rem;
-    background-color: #0e0618;
+    background-color: var(--background-header);
 }
 
 .title-description h1 {
@@ -104,6 +106,7 @@ main {
     flex-direction: column;
     gap: 2rem;
     padding: 0.5rem 1.5rem;
+
 }
 
 .content-card {
@@ -122,7 +125,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    background-color: #FFFFFF;
+    background-color: var(--betting-house-background);
     max-width: 100%;
     border-radius: 10px;
     padding: 0 2rem;
@@ -132,7 +135,7 @@ main {
 .betting-house-info:hover {
     transform: scale(1.1);
     transition: all 500ms;
-    border: #5913ad solid 3px;
+    border: var(--betting-house-border) solid 3px;
     border-radius: 10px;
 }
 
@@ -179,7 +182,7 @@ main {
 .bonus-section .bonus-amount {
     font-size: 3rem;
     font-weight: 700;
-    color: #520fa3;
+    color: var(--bonus-amount-color);
 }
 
 .bonus-section .bonus-description {
@@ -265,7 +268,7 @@ main {
     align-items: center;
     width: 100%;
     height: 50px;
-    background-color: #520fa3;
+    background-color: var(--visit-button-background);
     color: #ffffff;
     font-size: 1.6rem;
     font-weight: 700;
@@ -275,7 +278,7 @@ main {
 }
 
 .visit-button-section .cta-casino:hover {
-    background-color: #3e0d8a;
+    background-color: var(--visit-button-hover-background);
     cursor: pointer;
 }
 
@@ -294,7 +297,8 @@ main {
     gap: 2rem;
     font-family: "Roboto", serif;
     padding: 2rem;
-    background-color: #1a0041b4;
+    background-color: var(--help-info-background);
+    
 }
 
 .help-informations h2 {
@@ -315,16 +319,38 @@ main {
     color: #ffffff;
 }
 
-
-
 footer {
+    background-color: var(--footer-background);
+    color: var(--footer-text);
+    padding: 20px;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    max-height: 100%;
-    background-color: #0e0618;
-    min-width: 300px;
-    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.security-badges img {
+    margin-right: 10px;
+}
+
+.privacy-policy a {
+    color: var(--privacy-link-color);
+    text-decoration: none;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
