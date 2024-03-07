@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid white 1px;
+    width: 100%;
 }
 
 .faq-header {
@@ -19,28 +19,29 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 1rem;
-    border: solid white 1px;
+    width: 100%;
 }
 
 .accordion-container {
     display: flex;
     gap: 2rem;
+    width: 80%;
+    padding: 0 1rem;
+    justify-content: space-between;
 }
 
 .accordion {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     gap: 0.5rem;
-
-
+    width: 48%;
 }
 
 .accordion-item {
     display: flex;
     flex-direction: column;
+    
 }
 
 .accordion-item h2 button {
@@ -63,9 +64,11 @@
 .accordion-content {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
+    padding: 1rem;
     gap: 1rem;
     background-color: var(--accordion-content);
+    animation: moveToLeft 5s linear infinite;
+      animation-delay: 1000ms;
 }
 
 .accordion-content p {
@@ -77,4 +80,21 @@
     display: none;
 }
 
+@media only screen and (max-width: 768px) {
+    .accordion-container{
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    .accordion{
+        width: 100%;
+    }
+    .faq-header{
+        text-align: center;
+    }
+}
 
+@media only screen and (min-width: 1024px) {
+    .accordion-container{
+        max-width: 1200px;
+    }
+}
