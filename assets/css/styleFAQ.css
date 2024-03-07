@@ -41,7 +41,7 @@
 .accordion-item {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .accordion-item h2 button {
@@ -61,40 +61,61 @@
     color: #919090;
 }
 
+.accordion-button:hover {
+    background-color: #f2f2f2;
+}
+
+.accordion-button i {
+    transition: transform 0.3s ease-out;
+}
+
+.accordion-button.active i {
+    transform: rotate(180deg);
+}
+
 .accordion-content {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     gap: 1rem;
     background-color: var(--accordion-content);
-    animation: moveToLeft 5s linear infinite;
-      animation-delay: 1000ms;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
 }
+
+.accordion-content.open {
+    height: auto;
+}
+
 
 .accordion-content p {
     margin: 0 0 2rem 0;
     color: var(--accordion-text);
 }
 
+
+
 .display-none {
     display: none;
 }
 
 @media only screen and (max-width: 768px) {
-    .accordion-container{
+    .accordion-container {
         flex-wrap: wrap;
         gap: 0.5rem;
     }
-    .accordion{
+
+    .accordion {
         width: 100%;
     }
-    .faq-header{
+
+    .faq-header {
         text-align: center;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .accordion-container{
+    .accordion-container {
         max-width: 1200px;
     }
 }

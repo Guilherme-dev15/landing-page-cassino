@@ -293,31 +293,45 @@ main {
 .help-informations {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     gap: 2rem;
     font-family: "Roboto", serif;
     padding: 2rem;
     background-color: var(--help-info-background);
-    
+
 }
 
-.help-informations h2 {
+.help-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 2rem;
+    gap: 2rem;
+  
+}
+.help-content * {
+    color: #fff;
+}
+.help-content h2 {
     text-align: center;
     font-size: 3rem;
 }
 
-.help-informations p {
+.help-content p {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: justify;
     max-width: 1024px;
 }
 
-.help-informations h3 {
+.help-content h3 {
     font-size: 3rem;
     font-weight: 700;
-    color: #ffffff;
+    
 }
+
 
 footer {
     background-color: var(--footer-background);
@@ -456,4 +470,44 @@ footer {
         width: 62vw;
         text-align: justify;
     }
+}
+
+
+
+.help-informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.help-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+}
+
+.help-content h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.help-content h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.help-content p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .help-content {
+    width: 100%;
+  }
 }
