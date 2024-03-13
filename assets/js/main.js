@@ -27,19 +27,19 @@ fetchSitesData()
                                     <span> / 5</span>
                                     <div class="stars-container relative">
                                         <div class="stars">
-                                            <!-- Stars dynamically based on the rating -->
-                                            ${Array.from({ length: 5 }).map((_, index) => {
-                            const floorRating = Math.floor(site.rating);
-                            const hasHalfStar = index === floorRating && site.rating % 1 !== 0;
-                            const fullStar = index < floorRating;
-                            const notFull = index >= Math.ceil(site.rating);
+                                                <!-- Stars dynamically based on the rating -->
+                                                ${Array.from({ length: 5 }).map((_, index) => {
+                                                const floorRating = Math.floor(site.rating);
+                                                const hasHalfStar = index === floorRating && site.rating % 1 !== 0;
+                                                const fullStar = index < floorRating;
+                                                const notFull = index >= Math.ceil(site.rating);
 
-                            const starClass = hasHalfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : notFull ? 'fa fa-star-o' : 'error';
+                                                    const starClass = hasHalfStar ? 'fa-star-half-o' : fullStar ? 'fa-solid' : notFull ? 'fa fa-star-o' : 'error';
 
-                            return `
+                                                    return `
                                                     <i class="fa ${starClass} fa-star" aria-hidden="true"></i>
                                                 `;
-                        }).join('')}
+                                                    }).join('')}
                                         </div>
                                     </div>
                                 </div>

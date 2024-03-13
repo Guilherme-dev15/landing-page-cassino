@@ -89,10 +89,10 @@
 
 
 .accordion-content p {
-    margin: 0 0 2rem 0;
     color: var(--accordion-text);
+    max-width: 100%;
+    padding: 10px;
 }
-
 
 
 .display-none {
